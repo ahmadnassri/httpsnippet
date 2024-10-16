@@ -55,8 +55,8 @@ export const wget: Client<WgetOptions> = {
       push(`--body-data ${escape(quote(postData.text))}`);
     }
 
-    push(opts.short ? '-O' : '--output-document');
-    push(`- ${quote(fullUrl)}`);
+    push((opts.short ? '-O' : '--output-document') + ' -');
+    push(quote(fullUrl));
 
     return join();
   },
