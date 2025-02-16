@@ -67,6 +67,20 @@ Array [
   Object {
     "clients": Array [
       Object {
+        "description": "Dart HTTP client request using the http package",
+        "key": "http",
+        "link": "https://pub.dev/packages/http",
+        "title": "HTTP",
+      },
+    ],
+    "default": "http",
+    "extname": ".dart",
+    "key": "dart",
+    "title": "Dart",
+  },
+  Object {
+    "clients": Array [
+      Object {
         "description": "Golang HTTP client request",
         "key": "native",
         "link": "http://golang.org/pkg/net/http/#NewRequest",
